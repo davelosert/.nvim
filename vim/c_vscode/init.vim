@@ -38,3 +38,4 @@ nmap <Tab> :Tabnext<CR>
 nmap <S-Tab> :Tabprev<CR>
 
 map <Leader> <Plug>(easymotion-prefix)
+map <Leader>W <Plug>(easymotion-bd-w)
