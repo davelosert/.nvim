@@ -1,6 +1,6 @@
+vim.cmd("noremap <SPACE> <Nop>")
 -- leader to space
 vim.g.mapleader=' '
-vim.g.maplocalleader=' '
 
 -- better window movement
 vim.api.nvim_set_keymap('n', '<C-h>', '<C-w>h', { silent = true })

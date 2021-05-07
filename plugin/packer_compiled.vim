@@ -84,14 +84,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/davidlosert/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua"
   },
-  ["nvim-tree.lua"] = {
-    loaded = true,
-    path = "/Users/davidlosert/.local/share/nvim/site/pack/packer/start/nvim-tree.lua"
-  },
-  ["nvim-web-devicons"] = {
-    loaded = true,
-    path = "/Users/davidlosert/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
-  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/davidlosert/.local/share/nvim/site/pack/packer/start/packer.nvim"
@@ -99,6 +91,10 @@ _G.packer_plugins = {
   ["quick-scope"] = {
     loaded = true,
     path = "/Users/davidlosert/.local/share/nvim/site/pack/packer/start/quick-scope"
+  },
+  ["vim-easymotion"] = {
+    loaded = true,
+    path = "/Users/davidlosert/.local/share/nvim/site/pack/packer/start/vim-easymotion"
   }
 }
 

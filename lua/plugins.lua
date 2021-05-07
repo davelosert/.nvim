@@ -17,15 +17,17 @@ return require("packer").startup(function(use)
         use "wbthomason/packer.nvim"
 
         -- Color stuff
+        -- Works with VSCode as it is only activated on calling a setup function
         use "norcalli/nvim-base16.lua"
         use "norcalli/nvim-colorizer.lua"
         
         -- File explorer
-        use "kyazdani42/nvim-tree.lua"
-        use "kyazdani42/nvim-web-devicons"
+        -- todo: Does not work with vscode - visual mode is not displayed correctly
+        -- use "kyazdani42/nvim-tree.lua"
+        -- use "kyazdani42/nvim-web-devicons"
         
         use "unblevable/quick-scope"
-        -- use "asvetliakov/vim-easymotion"
+        use "asvetliakov/vim-easymotion"
 
         use {
           'phaazon/hop.nvim',

@@ -1,14 +1,17 @@
-vim.cmd("noremap <SPACE> <Nop>")
 require('plugins')
 require('globals')
 require('settings')
 require('keymappings')
 
-require('colorizer')
-require('nvim-tree')
-require('quick-scope')
+if(not vim.g.vscode)
+then
+    require('c_colorizer')
+    require('c_base16')
+--    require('c_nvim-tree')
+    require('c_hop')
+end
 
-local base16 = require "base16"
-base16(base16.themes["solarized-dark"], true)
+require('c_quick-scope')
 
 vim.cmd('source $HOME/.config/nvim/vim/highlight_yank.vim')
+vim.cmd('source $HOME/.config/nvim/vim/c_vscode/init.vim')
