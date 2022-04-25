@@ -37,12 +37,5 @@ return require("packer").startup(function(use)
             require'hop'.setup { keys = 'etovxqpdygfblzhckisuran' }
           end
         }
-
-        use {
-          "blackCauldron7/surround.nvim",
-          config = function()
-            require "surround".setup {}
-          end
-        }
     end
 )
